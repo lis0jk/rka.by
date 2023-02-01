@@ -1,0 +1,51 @@
+.modal {
+  display: none;
+  &__overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f1f1f4;
+    opacity: 0.4;
+    z-index: 12;
+  }
+
+  &__rules {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transform: translate(-12%, 0%);
+    z-index: 10000;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 1150px;
+    overflow: scroll;
+  }
+
+  &__close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  &__info {
+    width: 47%;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1f1412;
+    padding-bottom: 15px;
+
+    li {
+      margin-left: 20px;
+      list-style: disc;
+      padding-top: 5px;
+    }
+  }
+}
