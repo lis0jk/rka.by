@@ -1,0 +1,127 @@
+.consultation {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #1f1412;
+    padding-bottom: 30px;
+  }
+
+  &__info {
+    width: 50%;
+  }
+
+  &__text {
+    max-width: 520px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1f1412;
+    a {
+      color: #c2995a;
+      font-weight: 600;
+      text-decoration: underline;
+      transition: all 0.3s;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__form {
+    padding: 30px;
+    width: 45%;
+    border: 1px solid rgba(31, 20, 18, 0.5);
+
+    &-title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #1f1412;
+      padding-bottom: 20px;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+    &-label {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1f1412;
+      margin-bottom: 8px;
+    }
+
+    &-input {
+      padding: 15px;
+      outline: none;
+      border: 1px solid #c7c7c7;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #1f1412;
+    }
+
+    &-select {
+      padding: 15px;
+      outline: none;
+      border: 1px solid #c7c7c7;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #c7c7c7;
+    }
+
+    &-option {
+      color: #1f1412;
+    }
+
+    &-btn {
+      align-items: center;
+      padding: 15px 25px;
+      background: #c2995a;
+      border: 1px solid #c2995a;
+      width: 100%;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff;
+      transition: all 0.3s;
+      &:hover {
+        color: #c2995a;
+        background: #ffffff;
+      }
+    }
+
+    &-personal {
+      display: flex;
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #c7c7c7;
+        margin-left: 10px;
+        a {
+          color: #c2995a;
+          font-weight: 600;
+          text-decoration: underline;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.gratitude {
+  &__title {
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #1f1412;
+    padding-bottom: 30px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: start;
+  }
+
+  &__photo {
+    margin-right: 40px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 40%;
+  }
+
+  &__description {
+    width: 37%;
+    margin-bottom: 90px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1f1412;
+    padding-bottom: 28px;
+  }
+  &__ps {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(31, 20, 18, 0.5);
+  }
+}

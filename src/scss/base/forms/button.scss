@@ -1,0 +1,20 @@
+//<BUTTONS (a.btn+tab)>
+// Сніппет (HTML): btn
+
+.button {
+	display: flex;
+	max-width: 307px;
+	padding: 25px 35px;
+	background: linear-gradient(90.23deg, #C2995A -21.48%, #F8D282 116.04%);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	transition: all ease 2.5s;
+	@media (any-hover: hover) {
+		&:hover {
+			
+			background: linear-gradient(90.23deg, #b38a4c -21.48%, #ffd680 116.04%);
+		}
+	}	
+}
