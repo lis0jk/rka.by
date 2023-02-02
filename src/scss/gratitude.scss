@@ -1,14 +1,4 @@
 .gratitude {
-  &__title {
-    max-width: 600px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-    color: #1f1412;
-    padding-bottom: 30px;
-  }
-
   &__info {
     display: flex;
     align-items: start;
@@ -38,5 +28,9 @@
     font-size: 16px;
     line-height: 150%;
     color: rgba(31, 20, 18, 0.5);
+  }
+
+  &__other {
+    padding-bottom: 50px;
   }
 }

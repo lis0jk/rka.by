@@ -102,6 +102,22 @@ body {
 Сніппет (HTML): cnt
 */
 
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #1f1412;
+  padding-bottom: 30px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1f1412;
+}
+
 .container {
   width: 67%;
   margin: 0 auto;
@@ -133,3 +149,4 @@ body {
 @import "gratitude";
 @import "consultation";
 @import "modal";
+@import "brka";

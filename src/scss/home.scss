@@ -1,9 +1,6 @@
 .page {
   padding-top: 30px;
   // .page__container
-
-  &__container {
-  }
 }
 .main-page {
   //main-page__block
@@ -33,19 +30,17 @@
   }
 }
 .main-button {
-  display: flex;
-  max-width: 307px;
+  white-space: nowrap;
   padding: 25px 35px;
-  background: linear-gradient(90.23deg, #c2995a -21.48%, #f8d282 116.04%);
+  background-color: #c2995a;
+  border: 1px solid #c2995a;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
-  transition: background ease 2.5s;
-  @media (any-hover: hover) {
-    &:hover {
-      background: linear-gradient(90.23deg, #b38a4c -21.48%, #ffd680 116.04%);
-    }
+  transition: all 0.3s;
+  &:hover {
+    background: transparent;
   }
 }
 
@@ -169,9 +164,21 @@
     ),
     url("../img/news/bgthingth.png") center / cover no-repeat;
   padding: 20px 20px 0px 20px;
-  height: 1081px;
-  overflow: hidden;
+  height: 1050px;
+  overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(217, 217, 217, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #856739;
+  border-radius: 5px;
+}
+
 .news-thanks-card {
   display: flex;
   flex-direction: column;
