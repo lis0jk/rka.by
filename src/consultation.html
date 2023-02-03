@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/_head.htm',{ "title":"Новость" })
+  @@include('html/_head.htm',{ "title":"Юридическая онлайн-консультация" })
   <body>
     <div class="wrapper">
       @@include('html/_header.htm',{})
@@ -30,87 +30,179 @@
           Юридическая онлайн-консультация
         </h1>
         <section class="consultation">
-          <p class="consultation__text">
-            <b>Уважаемые посетители!</b> <br />
-            <br />
-            В рамках бесплатной юридической онлайн-консультации адвокаты
-            Республики Беларусь дают предварительное разъяснение норм
-            законодательства Республики Беларусь по вопросам, не требующим
-            ознакомления с документами и иными материалами. <br />
-            <br />
-            Здесь вы можете изучить текст
-            <a class="rule-btn">Правил работы интернет-ресурса</a>
-            «Бесплатная юридическая онлайн-консультация Белорусской
-            республиканской коллегии адвокатов». <br />
-            <br />
-            <b>Внимание!</b> <br />
-            <br />
-            Если ваш вопрос не соответствует Правилам, рекомендуем обратиться
-            на личный приём к адвокату. <br />
-            Адвокаты отвечают на вопросы онлайн-консультации по мере
-            возможности. <br />
-            Вопросы, содержащие личные данные, могут быть оставлены без ответа
-            с целью неразглашения персональных данных. <br />
-            Вопросы, на которые даны ответы, хранятся в базе данных сайта
-            в течение одного года, после чего удаляются.
-          </p>
-          <div class="consultation__form">
-            <h3 class="consultation__form-title">ЗАДАТЬ ВОПРОС</h3>
-            <div class="consultation__form-item">
-              <label class="consultation__form-label">Ваше имя *</label>
-              <input
-                class="consultation__form-input"
-                type="text"
-                placeholder="Иван"
-              />
+          <div class="consultation__info">
+            <p class="consultation__text text">
+              <b>Уважаемые посетители!</b> <br />
+              <br />
+              В рамках бесплатной юридической онлайн-консультации адвокаты
+              Республики Беларусь дают предварительное разъяснение норм
+              законодательства Республики Беларусь по вопросам, не требующим
+              ознакомления с документами и иными материалами. <br />
+              <br />
+              Здесь вы можете изучить текст
+              <a class="rule-btn">Правил работы интернет-ресурса</a>
+              «Бесплатная юридическая онлайн-консультация Белорусской
+              республиканской коллегии адвокатов». <br />
+              <br />
+              <b>Внимание!</b> <br />
+              <br />
+              Если ваш вопрос не соответствует Правилам, рекомендуем обратиться
+              на личный приём к адвокату. <br />
+              Адвокаты отвечают на вопросы онлайн-консультации по мере
+              возможности. <br />
+              Вопросы, содержащие личные данные, могут быть оставлены без ответа
+              с целью неразглашения персональных данных. <br />
+              Вопросы, на которые даны ответы, хранятся в базе данных сайта
+              в течение одного года, после чего удаляются.
+            </p>
+            <div class="consultation__form">
+              <h3 class="consultation__form-title">ЗАДАТЬ ВОПРОС</h3>
+              <div class="consultation__form-item">
+                <label class="consultation__form-label">Ваше имя *</label>
+                <input
+                  class="consultation__form-input"
+                  type="text"
+                  placeholder="Иван"
+                />
+              </div>
+              <div class="consultation__form-item">
+                <label class="consultation__form-label">Номер телефона *</label>
+                <input
+                  class="consultation__form-input"
+                  type="text"
+                  placeholder="+375 (29) 123–45–67"
+                />
+              </div>
+              <div class="consultation__form-item">
+                <label class="consultation__form-label">Email</label>
+                <input
+                  class="consultation__form-input"
+                  type="text"
+                  placeholder="ivanov_ivan@gmail.com"
+                />
+              </div>
+              <div class="consultation__form-item">
+                <label class="consultation__form-label">
+                  Выберите кому будет адресован вопрос
+                </label>
+                <select class="consultation__form-select">
+                  <option class="consultation__form-option" value="">
+                    Выбрать
+                  </option>
+                  <option class="consultation__form-option" value="Адвокат">
+                    Адвокат
+                  </option>
+                </select>
+              </div>
+              <div class="consultation__form-item">
+                <label class="consultation__form-label">Вопрос *</label>
+                <textarea
+                  class="consultation__form-input"
+                  class=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Ваш вопрос"
+                ></textarea>
+              </div>
+              <button class="consultation__form-btn">Отправить</button>
+              <div class="consultation__form-personal">
+                <input type="checkbox" />
+                <p>
+                  Нажимая кнопку «Отправить», вы соглашаетесь на 
+                  <a href="">обработку персональных данных</a>
+                </p>
+              </div>
             </div>
-            <div class="consultation__form-item">
-              <label class="consultation__form-label">Номер телефона *</label>
-              <input
-                class="consultation__form-input"
-                type="text"
-                placeholder="+375 (29) 123–45–67"
-              />
+          </div>
+
+          <div class="consultation__answer">
+            <h2 class="consultation__answer-title title">
+              Ответы адвокатов на вопросы граждан в отрасли Авторское право
+            </h2>
+            <div class="consultation__answer-box">
+              <div class="consultation__answer-item">
+                <div class="consultation__answer-message">
+                  <img
+                    class="consultation__answer-icon"
+                    src="img/icons/question.svg"
+                    alt="icon"
+                  />
+                  <p class="consultation__answer-span text">Вопрос</p>
+                </div>
+                <p class="consultation__answer-text text">
+                  Не вапрос а просьба,) убрать маю злость и ненависть! Контакт
+                  <a
+                    class="consultation__answer-text--tel"
+                    href="tel:+375256462823"
+                  >
+                    +375256462823
+                  </a>
+                  Дорошев Максим Владимировеч благодарю заранее
+                </p>
+                <div class="consultation__answer-message">
+                  <img
+                    class="consultation__answer-icon"
+                    src="img/icons/answer.svg"
+                    alt="icon"
+                  />
+                  <p class="consultation__answer-span text">
+                    Ответ, адвокат
+                    <a class="consultation__answer-link" href="">
+                      Мошкин Виталий Витальевич
+                    </a>
+                  </p>
+                </div>
+                <p class="consultation__answer-date">24 июля 2022</p>
+              </div>
+
+              <div class="consultation__answer-item">
+                <div class="consultation__answer-message">
+                  <img
+                    class="consultation__answer-icon"
+                    src="img/icons/question.svg"
+                    alt="icon"
+                  />
+                  <p class="consultation__answer-span text">Вопрос</p>
+                </div>
+                <p class="consultation__answer-text text">
+                  Здравствуйте! Меня зовут Надежда Викторовна, я из Гомеля.
+                  У меня вопрос по авторским правам. Недавно я участвовала
+                  в Международной конференции, подготовила статью для сборника,
+                  в которой представила свой опыт участия в сетевых
+                  образовательных проектах. Среди них был и проект, который
+                  был инициирован методическим отделом Областного Дворца
+                  творчества детей и молодёжи, и в частности методистом этого
+                  отдела. Я в своей статье рассказала о проекте с позиции
+                  участника, указав при этом что не я являюсь автором проекта,
+                  дала ссылки на материалы, которые я разработала в рамках
+                  проекта, а также материалы, которые были разработаны
+                  в соавторстве с упоминанием соавторов. Моя статья была
+                  опубликована в сборнике, после чего в мой адрес поступили
+                  претензии, что якобы я нарушила авторские права и закон
+                  о персональных данных, что якобы материалы были в закрытой
+                  группе по персональным ссылкам, хотя это в условиях участия
+                  не оговаривали. Так вот вопрос: если есть все ссылки
+                  с указанием авторства, нарушены ли в этом случае авторские
+                  права. Саму статью при необходимости могу предоставить.
+                </p>
+                <div class="consultation__answer-message">
+                  <img
+                    class="consultation__answer-icon"
+                    src="img/icons/answer.svg"
+                    alt="icon"
+                  />
+                  <p class="consultation__answer-span text">
+                    Ответ, адвокат
+                    <a class="consultation__answer-link" href=""
+                      >Мошкин Виталий Витальевич</a
+                    >
+                  </p>
+                </div>
+                <p class="consultation__answer-date">01 июля 2022</p>
+              </div>
             </div>
-            <div class="consultation__form-item">
-              <label class="consultation__form-label">Email</label>
-              <input
-                class="consultation__form-input"
-                type="text"
-                placeholder="ivanov_ivan@gmail.com"
-              />
-            </div>
-            <div class="consultation__form-item">
-              <label class="consultation__form-label">
-                Выберите кому будет адресован вопрос
-              </label>
-              <select class="consultation__form-select">
-                <option class="consultation__form-option" value="">
-                  Выбрать
-                </option>
-                <option class="consultation__form-option" value="Адвокат">
-                  Адвокат
-                </option>
-              </select>
-            </div>
-            <div class="consultation__form-item">
-              <label class="consultation__form-label">Вопрос *</label>
-              <textarea
-                class="consultation__form-input"
-                class=""
-                cols="30"
-                rows="10"
-                placeholder="Ваш вопрос"
-              ></textarea>
-            </div>
-            <button class="consultation__form-btn">Отправить</button>
-            <div class="consultation__form-personal">
-              <input type="checkbox" />
-              <p>
-                Нажимая кнопку «Отправить», вы соглашаетесь на 
-                <a href="">обработку персональных данных</a>
-              </p>
-            </div>
+
+            <button class="consultation__answer-btn">Показать ещё</button>
           </div>
         </section>
       </div>

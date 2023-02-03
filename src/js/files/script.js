@@ -22,4 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   openForm();
+
+  $(".brka__structure-name").click(function (event) {
+    if ($(".brka__structure-info").hasClass("one")) {
+      $(".brka__structure-name").not($(this)).removeClass("active");
+      $(".brka__structure-description").not($(this).next()).slideUp();
+    }
+    $(this).toggleClass("active").next().slideToggle();
+  });
 });

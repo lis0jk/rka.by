@@ -1,18 +1,13 @@
 .consultation {
-  display: flex;
-  justify-content: space-between;
-
   &__info {
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
   }
 
   &__text {
     max-width: 520px;
     padding-bottom: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #1f1412;
     a {
       color: #c2995a;
       font-weight: 600;
@@ -113,6 +108,97 @@
             opacity: 0.6;
           }
         }
+      }
+    }
+  }
+
+  &__answer {
+    &-title {
+      width: 55%;
+    }
+
+    &-box {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    &-item {
+      border: 1px solid #e5e5e5;
+      width: 48%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s;
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-message {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    &-icon {
+      margin-right: 5px;
+    }
+
+    &-span {
+      font-weight: 600;
+    }
+
+    &-text {
+      font-weight: 600;
+      margin-bottom: 15px;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: clip;
+      display: -webkit-box;
+
+      &--tel {
+        font-weight: 600;
+        color: #1f1412;
+        transition: all 0.3s;
+        &:hover {
+          color: #c2995a;
+        }
+      }
+    }
+
+    &-link {
+      font-weight: 600;
+      text-decoration-line: underline;
+      color: #c2995a;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &-date {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 140%;
+      color: #1f1412;
+    }
+
+    &-btn {
+      margin: 0 auto;
+      display: block;
+      padding: 15px 23px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      background: linear-gradient(90.23deg, #c2995a -21.48%, #f8d282 116.04%);
+      border: 1px solid #c2995a;
+      transition: all 0.3s;
+      &:hover {
+        color: #c2995a;
+        background: #ffffff;
       }
     }
   }
