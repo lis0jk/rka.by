@@ -1,0 +1,83 @@
+.law {
+  &__content {
+    margin-bottom: 34px;
+
+    &-title {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 150%;
+      color: #1f1412;
+    }
+
+    &-text {
+      padding-bottom: 10px;
+    }
+  }
+
+  &__list {
+    &-item {
+      margin-left: 20px;
+      list-style: disc;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &__info {
+    &-item {
+      width: 48%;
+    }
+  }
+
+  &__chapter {
+    display: flex;
+    margin-bottom: 35px;
+
+    &-item {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: rgba(31, 20, 18, 0.4);
+      transition: all 0.3s;
+
+      &--active {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #c2995a;
+        text-decoration: underline;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      &:hover {
+        color: #c2995a;
+      }
+    }
+  }
+
+  &__provision {
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__subtitle {
+    padding-bottom: 5px;
+    font-weight: 700;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      padding-bottom: 5px;
+    }
+  }
+}

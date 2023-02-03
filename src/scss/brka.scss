@@ -152,16 +152,18 @@
       color: #1f1412;
 
       &:after {
+        display: block;
         position: absolute;
-        content: url(img/icons/plus.svg);
+        content: url(../img/icons/plus.svg);
         right: 0;
         top: -7px;
       }
 
       &.active:after {
+        display: block;
         top: 0;
         right: 4px;
-        content: url(img/icons/close.svg);
+        content: url(../img/icons/close.svg);
       }
     }
 
