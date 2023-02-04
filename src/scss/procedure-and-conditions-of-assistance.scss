@@ -1,0 +1,39 @@
+.conditions {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      width: 47%;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1f1412;
+  }
+
+  &__text {
+    padding-bottom: 10px;
+
+    &-first {
+      padding-bottom: 15px;
+    }
+
+    &-bold {
+      font-weight: 500;
+    }
+  }
+
+  &__list {
+    &-item {
+      margin-left: 20px;
+      list-style: disc;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
