@@ -1,0 +1,51 @@
+.corporate {
+  &__lawyer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 45px;
+      border: 1px solid #e5e5e5;
+      transition: all 0.3s;
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-photo {
+      margin-bottom: 10px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    &-name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #1f1412;
+      margin-bottom: 12px;
+    }
+
+    &-tel {
+      display: flex;
+      align-items: center;
+    }
+
+    &-icon {
+      margin-right: 10px;
+    }
+
+    &-btn {
+      margin-bottom: 105px;
+    }
+  }
+}

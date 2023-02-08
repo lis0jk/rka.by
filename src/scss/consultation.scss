@@ -184,22 +184,5 @@
       line-height: 140%;
       color: #1f1412;
     }
-
-    &-btn {
-      margin: 0 auto;
-      display: block;
-      padding: 15px 23px;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px;
-      color: #ffffff;
-      background: linear-gradient(90.23deg, #c2995a -21.48%, #f8d282 116.04%);
-      border: 1px solid #c2995a;
-      transition: all 0.3s;
-      &:hover {
-        color: #c2995a;
-        background: #ffffff;
-      }
-    }
   }
 }
