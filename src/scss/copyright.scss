@@ -149,5 +149,70 @@
   }
 
   &__answer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+
+    &-item {
+      border: 1px solid #e5e5e5;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s;
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-message {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    &-icon {
+      margin-right: 5px;
+    }
+
+    &-span {
+      font-weight: 600;
+    }
+
+    &-text {
+      font-weight: 600;
+      margin-bottom: 15px;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: clip;
+      display: -webkit-box;
+
+      &--tel {
+        font-weight: 600;
+        color: #1f1412;
+        transition: all 0.3s;
+        &:hover {
+          color: #c2995a;
+        }
+      }
+    }
+
+    &-link {
+      font-weight: 600;
+      text-decoration-line: underline;
+      color: #c2995a;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &-date {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 140%;
+      color: #1f1412;
+    }
   }
 }
