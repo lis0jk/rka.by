@@ -1,0 +1,153 @@
+.copyright {
+  &__title {
+    width: 65%;
+  }
+
+  &__text {
+    margin-bottom: 60px;
+    width: 50%;
+  }
+
+  &__lawyer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 45px;
+      border: 1px solid #e5e5e5;
+      transition: all 0.3s;
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-photo {
+      margin-bottom: 10px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    &-name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #1f1412;
+      margin-bottom: 12px;
+    }
+
+    &-tel {
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+      &:hover {
+        color: #c2995a;
+      }
+    }
+
+    &-icon {
+      margin-right: 10px;
+    }
+
+    &-btn {
+      margin-bottom: 105px;
+    }
+  }
+
+  &__article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border: 1px solid #e5e5e5;
+      transition: all 0.3s;
+
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-info {
+      margin-right: 20px;
+    }
+
+    &-photo {
+      object-fit: cover;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+
+    &-name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #1f1412;
+      padding-bottom: 5px;
+    }
+
+    &-tel {
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+      &:hover {
+        color: #c2995a;
+      }
+    }
+
+    &-icon {
+      margin-right: 8px;
+    }
+
+    &-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &-title {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      color: #1f1412;
+    }
+
+    &-text {
+      margin-bottom: 25px;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: clip;
+      display: -webkit-box;
+    }
+
+    &-date {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 140%;
+      color: #1f1412;
+      text-align: end;
+    }
+
+    &-pages {
+      margin-bottom: 135px;
+    }
+  }
+
+  &__answer {
+  }
+}

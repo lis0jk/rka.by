@@ -81,6 +81,7 @@
 }
 .card-section-block {
   display: grid;
+  margin-bottom: 50px;
   gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -121,7 +122,6 @@
   color: #fff;
 }
 .card-section-blocks-pagination {
-  padding-top: 50px;
   display: flex;
   justify-content: center;
   position: relative;

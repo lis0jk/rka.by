@@ -1,0 +1,31 @@
+.branches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    transition: all 0.3s;
+
+    &-twice {
+      &--first {
+        grid-area: 4 / 2 / 5 / 4;
+      }
+      &--second {
+        grid-area: 9 / 3 / 10 / 5;
+      }
+      &--third {
+        grid-area: 11 / 2 / 12 / 4;
+      }
+    }
+
+    &:hover {
+      border: 1px solid #c2995a;
+    }
+  }
+}

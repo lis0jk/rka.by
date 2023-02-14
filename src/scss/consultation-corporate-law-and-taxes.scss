@@ -38,6 +38,10 @@
     &-tel {
       display: flex;
       align-items: center;
+      transition: all 0.3s;
+      &:hover {
+        color: #c2995a;
+      }
     }
 
     &-icon {

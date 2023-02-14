@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"Сайт находится в разработке" })
+  <body>
+    <div class="wrapper">
+      <section class="development">
+        <img class="development__logo" src="img/logo.svg" alt="logo" />
+        <h1 class="development__title color">Сайт находится в разработке</h1>
+        <p class="development__text color">
+          Наш сайт находится в разработке, подпишись на наши обновления
+        </p>
+        <div class="development__follow">
+          <p class="development__follow-text color">Подпишитесь</p>
+          <div class="development__follow-contact">
+            <input
+              class="development__follow-mail"
+              type="text"
+              placeholder="Введите ваш Email"
+            />
+            <button class="development__follow-btn">Подписаться</button>
+          </div>
+        </div>
+
+        <div class="development__media">
+          <a class="development__media-item" href="https://youtube.com/">
+            <img src="img/icons/youtube.svg" alt="youtube" />
+          </a>
+          <a class="development__media-item" href="https://telegram.me">
+            <img src="img/icons/telegram.svg" alt="telegram" />
+          </a>
+          <a class="development__media-item" href="https://instagram.com">
+            <img src="img/icons/instagram.svg" alt="instagram" />
+          </a>
+          <a class="development__media-item" href="https://www.facebook.com">
+            <img src="img/icons/facebook.svg" alt="facebook" />
+          </a>
+        </div>
+      </section>
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>
