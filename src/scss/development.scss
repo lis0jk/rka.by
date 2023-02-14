@@ -91,17 +91,3 @@ input::-moz-placeholder {
 input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-
-.color {
-  background: linear-gradient(
-    135.76deg,
-    #a78848 -15.87%,
-    #f0ebb1 49.9%,
-    #9c7d44 109.16%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0px 4px 10px rgba(31, 20, 18, 0.4);
-  text-align: center;
-}
