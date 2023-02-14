@@ -1,0 +1,26 @@
+.appeal {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    width: 48%;
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  &__text {
+    margin-bottom: 10px;
+    a {
+      font-weight: 600;
+      text-decoration-line: underline;
+      color: #c2995a;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
