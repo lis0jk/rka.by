@@ -1,0 +1,94 @@
+.history {
+  &__about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    &-item {
+      width: 48%;
+    }
+  }
+
+  &__dates {
+    padding: 96px 50px;
+    width: 100%;
+    background-image: url("img/history/date.png");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-bottom: 110px;
+
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      color: #ffffff;
+      padding-bottom: 40px;
+      width: 48%;
+    }
+
+    &-btn {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      padding: 15px 47.5px;
+      border: 1px solid #ffffff;
+      background: transparent;
+      transition: all 0.3s;
+
+      &:hover {
+        border: 1px solid #c2995a;
+        background: #c2995a;
+      }
+    }
+  }
+
+  &__collegium {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 110px;
+
+    &-item {
+      border: 1px solid #e5e5e5;
+      padding: 10px 0;
+      transition: all 0.3s;
+
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+
+    &-logo {
+      margin-bottom: 10px;
+    }
+
+    &-name {
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  &__members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+
+    &-item {
+      border: 1px solid #e5e5e5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      transition: all 0.3s;
+
+      &:hover {
+        border: 1px solid #c2995a;
+      }
+    }
+  }
+}
