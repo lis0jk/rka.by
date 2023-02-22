@@ -1,0 +1,74 @@
+.find {
+  &__search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 60px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    &-label {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1f1412;
+      margin-bottom: 8px;
+    }
+
+    &-select {
+      width: 290px;
+      padding: 16.5px 15px;
+      border: 1px solid #c7c7c7;
+      color: #c7c7c7;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    &-option {
+      color: #1f1412;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    &-input {
+      width: 290px;
+      padding: 15.5px 15px;
+      border: 1px solid #c7c7c7;
+      &::placeholder {
+        color: #c7c7c7;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+
+    &-btn {
+      padding: 15px 34.5px;
+    }
+  }
+
+  &__lawyer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+
+    .copyright__lawyer {
+      &-item {
+        margin-right: 0;
+      }
+    }
+  }
+}
