@@ -1,0 +1,46 @@
+.history-brka {
+  &__title {
+    padding-bottom: 40px;
+    max-width: 60%;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    &-text {
+      max-width: 570px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    &-item {
+      width: 48%;
+    }
+
+    &-part {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-title {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 150%;
+      color: #1f1412;
+      margin-bottom: 13px;
+    }
+
+    &-text {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -71,55 +71,6 @@
     }
   }
 
-  // &__history {
-  //   display: flex;
-  //   align-items: center;
-  //   flex-direction: column;
-  //   margin-bottom: 30px;
-
-  //   &-title {
-  //     padding-bottom: 40px;
-  //     max-width: 770px;
-  //     text-align: center;
-  //   }
-
-  //   &-info {
-  //     display: flex;
-  //     align-items: start;
-  //   }
-
-  //   &-text {
-  //     max-width: 570px;
-  //     margin-left: 40px;
-  //   }
-  // }
-
-  // &__info {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   margin-bottom: 60px;
-
-  //   &-item {
-  //     width: 31%;
-  //   }
-
-  //   &-title {
-  //     font-weight: 600;
-  //     font-size: 18px;
-  //     line-height: 150%;
-  //     color: #1f1412;
-  //     margin-bottom: 13px;
-  //   }
-
-  //   &-text {
-  //     &:not(:last-child) {
-  //       padding-bottom: 10px;
-  //       border-bottom: 1px solid #d8d8d8;
-  //       margin-bottom: 10px;
-  //     }
-  //   }
-  // }
-
   &__structure {
     display: flex;
     flex-direction: column;

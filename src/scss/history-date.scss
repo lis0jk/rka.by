@@ -1,0 +1,22 @@
+.history-date {
+  &__about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+    &-item {
+      width: 48%;
+    }
+
+    &-part {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-title {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  }
+}

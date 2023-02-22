@@ -1,0 +1,17 @@
+.history-lawyer {
+  display: flex;
+
+  &__photo {
+    margin-right: 40px;
+  }
+
+  &__info {
+    width: 50%;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}

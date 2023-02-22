@@ -11,7 +11,7 @@
   &__dates {
     padding: 96px 50px;
     width: 100%;
-    background-image: url("img/history/date.png");
+    background-image: url("../img/history/date.png");
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -64,11 +64,11 @@
     &-logo {
       margin-bottom: 10px;
     }
+  }
 
-    &-name {
-      font-weight: 600;
-      text-align: center;
-    }
+  &__name {
+    font-weight: 600;
+    text-align: center;
   }
 
   &__members {
@@ -89,6 +89,10 @@
       &:hover {
         border: 1px solid #c2995a;
       }
+    }
+
+    &-photo {
+      padding-bottom: 10px;
     }
   }
 }
