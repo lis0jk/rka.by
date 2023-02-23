@@ -149,6 +149,19 @@ body {
   }
 }
 
+.link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #c2995a;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
 .container {
   width: 67%;
   margin: 0 auto;
@@ -201,3 +214,4 @@ body {
 @import "history-lawyer";
 
 @import "find-lawyer";
+@import "petrochenko";
