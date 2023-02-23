@@ -187,12 +187,16 @@ body {
 
 // Підключення стилів окремих сторінок
 @import "home";
+@import "modal";
+
 @import "news";
 @import "newsAbout";
+
 @import "gratitudes";
 @import "gratitude";
+
 @import "consultation";
-@import "modal";
+
 @import "brka";
 @import "advocacy";
 @import "law-rb";
@@ -200,8 +204,11 @@ body {
 @import "procedure-and-conditions-of-assistance";
 @import "collegium";
 @import "consultation-corporate-law-and-taxes";
+
 @import "branches";
 @import "copyright";
+@import "article";
+@import "blog";
 
 @import "development";
 @import "404Page";
