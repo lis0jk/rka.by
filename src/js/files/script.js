@@ -6,8 +6,15 @@ import { flsModules } from "./modules.js";
 document.addEventListener("DOMContentLoaded", function () {
   function openForm() {
     const formRulesBtn = document.querySelectorAll(".rule-btn");
-    const closeRulesFormBtn = document.querySelectorAll(".modal__close");
+    const closeFormBtn = document.querySelectorAll(".modal__close");
+    const modalForm = document.querySelector(".modal");
     const modalRulesForm = document.querySelector(".modal-rule");
+
+    const formGratBtn = document.querySelectorAll(".btn-grat");
+    const modalGratForm = document.querySelector(".modal-grat");
+
+    const formCommBtn = document.querySelectorAll(".btn-comm");
+    const modalCommForm = document.querySelector(".modal-comm");
 
     formRulesBtn.forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -15,9 +22,22 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
 
-    closeRulesFormBtn.forEach((btn) => {
+    formGratBtn.forEach((btn) => {
       btn.addEventListener("click", () => {
-        modalRulesForm.style.display = "none";
+        modalGratForm.style.display = "block";
+      });
+    });
+
+    formCommBtn.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        modalCommForm.style.display = "block";
+      });
+    });
+
+    closeFormBtn.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        modalForm.style.display = "none";
+        modalCommForm.style.display = "none";
       });
     });
   }

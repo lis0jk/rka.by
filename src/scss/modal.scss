@@ -29,6 +29,7 @@
     position: absolute;
     right: 15px;
     top: 15px;
+    cursor: pointer;
   }
 
   &__info {
@@ -46,6 +47,114 @@
       margin-left: 20px;
       list-style: disc;
       padding-top: 5px;
+    }
+  }
+
+  &__form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px rgba(31, 20, 18, 0.2);
+    padding: 30px 30px;
+    max-width: 450px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1f1412;
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1f1412;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    border: 1px solid #c7c7c7;
+    padding: 16.5px 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1f1412;
+
+    &::placeholder {
+      color: #c7c7c7;
+    }
+  }
+
+  &__text {
+    border: 1px solid #c7c7c7;
+    padding: 16.5px 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1f1412;
+  }
+
+  &__textarea {
+    border: 1px solid #c7c7c7;
+    padding: 16.5px 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1f1412;
+
+    &::placeholder {
+      color: #c7c7c7;
+    }
+  }
+
+  &__btn {
+    align-items: center;
+    padding: 15px 25px;
+    background: #c2995a;
+    border: 1px solid #c2995a;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    transition: all 0.3s;
+    &:hover {
+      color: #c2995a;
+      background: #ffffff;
+    }
+  }
+
+  &__personal {
+    display: flex;
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      color: #c7c7c7;
+      margin-left: 10px;
+      a {
+        color: #c2995a;
+        font-weight: 600;
+        text-decoration: underline;
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.6;
+        }
+      }
     }
   }
 }

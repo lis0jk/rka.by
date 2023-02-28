@@ -45,8 +45,10 @@
                 </div>
               </div>
               <div class="answer__feedback">
-                <button class="answer__btn btn">Поблагодарить</button>
-                <button class="answer__btn btn btn-active">Комментарий</button>
+                <button class="answer__btn btn btn-grat">Поблагодарить</button>
+                <button class="answer__btn btn btn-active btn-comm">
+                  Комментарий
+                </button>
               </div>
             </div>
 
@@ -104,6 +106,12 @@
       </div>
       @@include('html/_footer.htm',{})
       <!-- /.footer -->
+
+      @@include('html/gratitude.htm', {})
+      <!-- /.gratitude modals -->
+
+      @@include('html/comment.htm', {})
+      <!-- /.comment modals -->
     </div>
     @@include('html/_js.htm',{})
   </body>
