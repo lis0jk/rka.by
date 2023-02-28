@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="branches.html" class="breadcrubs__link">Отрасли права</a>
+              <a href="copyright.html" class="breadcrubs__link">
+                Авторское право
+              </a>
+              <a href="" class="active-breadcrubs">
+                Ответы адвокатов на вопросы граждан в отрасли Авторское право
+              </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="answer__title title">
+          Ответы адвокатов на вопросы граждан в отрасли Авторское право
+        </h1>
+        <section class="answer">
+          <div class="answer__container">
+            <div class="answer__box">
+              <div class="answer__card">
+                <img
+                  class="answer__card-photo"
+                  src="img/lawyers/moshkin.png"
+                  alt=""
+                />
+                <p class="answer__card-name">Мошкин Виталий Витальевич</p>
+                <div class="answer__card-tel">
+                  <img
+                    class="answer__card-icon"
+                    src="img/icons/phone.svg"
+                    alt=""
+                  />
+                  <a class="answer__card-phone text" href="tel:+375293158153">
+                    +37529 315 81 53
+                  </a>
+                </div>
+              </div>
+              <div class="answer__feedback">
+                <button class="answer__btn btn">Поблагодарить</button>
+                <button class="answer__btn btn btn-active">Комментарий</button>
+              </div>
+            </div>
+
+            <div class="answer__info">
+              <div class="answer__message">
+                <img
+                  class="answer__icon"
+                  src="img/icons/question.svg"
+                  alt="icon"
+                />
+                <p class="answer__span text">Вопрос</p>
+              </div>
+              <p class="answer__text text">
+                Не вапрос а просьба,) убрать маю злость и ненависть! Контакт
+                +375256462823 Дорошев Максим Владимировеч благодарю заранее
+              </p>
+              <div class="answer__message">
+                <img
+                  class="answer__icon"
+                  src="img/icons/answer.svg"
+                  alt="icon"
+                />
+                <p class="answer__span text">
+                  Ответ, адвокат
+                  <object>
+                    <a class="answer__link link" href="">
+                      Мошкин Виталий Витальевич
+                    </a>
+                  </object>
+                </p>
+              </div>
+              <p class="text">
+                Ваш вопрос не соответствует правилам онлайн консультации.
+                А злиться не надо, не можете с этим справиться — как совет —
+                просто ложитесь спать.
+              </p>
+              <p class="answer__date">24 июля 2022</p>
+              <p class="answer__span text">
+                Если что-то осталось неясным или есть другие вопросы
+                по этой же теме:
+              </p>
+              <ul class="answer__list">
+                <li class="answer__list-item text">
+                  для максимально быстрого решения вопроса, созвонитесь
+                  с адвокатом и договоритесь о личной консультации;
+                </li>
+                <li class="answer__list-item text">
+                  или напишите комментарий к ответу с уточняющими вопросами
+                  по этой теме. Не создавайте новый вопрос!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

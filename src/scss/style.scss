@@ -147,6 +147,17 @@ body {
     color: #c2995a;
     background: #ffffff;
   }
+
+  &-active {
+    color: #c2995a;
+    background: #ffffff;
+    border: 1px solid #c2995a;
+    transition: all 0.3s;
+    &:hover {
+      color: #ffffff;
+      background: linear-gradient(90.23deg, #c2995a -21.48%, #f8d282 116.04%);
+    }
+  }
 }
 
 .link {
@@ -209,6 +220,7 @@ body {
 @import "copyright";
 @import "article";
 @import "blog";
+@import "answer";
 
 @import "development";
 @import "404Page";
