@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="autorization__title title">Авторизация</h1>
+        <section class="autorization">
+          <label class="autorization__label">Логин</label>
+          <input class="autorization__input" type="text" />
+          <label class="autorization__label">Пароль</label>
+          <input class="autorization__input" type="text" />
+          <div class="autorization__personal">
+            <input type="checkbox" />
+            <p class="autorization__remember text">
+              Запомнить меня на этом компьютере
+            </p>
+          </div>
+          <a class="autorization__forget link" href="password-request.html">
+            Забыли пароль?
+          </a>
+          <button class="autorization__btn btn btn-uniform">Войти</button>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

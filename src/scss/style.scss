@@ -158,6 +158,11 @@ body {
       background: linear-gradient(90.23deg, #c2995a -21.48%, #f8d282 116.04%);
     }
   }
+
+  &-uniform {
+    background: #c2995a;
+    width: 100%;
+  }
 }
 
 .link {
@@ -236,3 +241,5 @@ body {
 
 @import "find-lawyer";
 @import "petrochenko";
+
+@import "autorization";

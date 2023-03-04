@@ -1,0 +1,63 @@
+.autorization {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(31, 20, 18, 0.5);
+  max-width: 450px;
+  padding: 30px;
+
+  &-request__title {
+    padding-bottom: 8px;
+  }
+
+  &__text {
+    max-width: 470px;
+    margin-top: 8px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1f1412;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    border: 1px solid #c7c7c7;
+    padding: 16.5px 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1f1412;
+  }
+
+  &__personal {
+    display: flex;
+    margin-bottom: 8px;
+    p {
+      margin-left: 10px;
+    }
+  }
+
+  &__forget {
+    margin-bottom: 15px;
+  }
+
+  &__done {
+    border: 1px solid transparent;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 23px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #c2995a;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
