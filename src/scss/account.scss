@@ -1,0 +1,120 @@
+.account {
+  display: flex;
+  align-items: start;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 30%;
+
+    &-item {
+      padding: 10px;
+      border: 1px solid #e5e5e5;
+      background: transparent;
+      font-size: 18px;
+      transition: all 0.3s;
+      white-space: nowrap;
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      &:hover {
+        background: #c2995a;
+        border: 1px solid #c2995a;
+        color: #ffffff;
+      }
+    }
+
+    .active {
+      background: #c2995a;
+      border: 1px solid #c2995a;
+      color: #ffffff;
+    }
+  }
+
+  &__info {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    width: 65%;
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--area {
+        align-items: start;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+
+    &-text {
+      font-size: 18px;
+      white-space: nowrap;
+      width: 50%;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+
+    &-photo {
+      padding: 10px;
+      width: 50%;
+      border: 1px dashed #1f1412;
+      white-space: nowrap;
+    }
+
+    &-input {
+      padding: 10px;
+      width: 50%;
+      border: 1px solid #c7c7c7;
+      margin: 0;
+      font-size: 18px;
+      white-space: nowrap;
+
+      a:hover {
+        transition: all 0.3s;
+        color: #c2995a;
+      }
+    }
+
+    &-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+
+    &-checkbox {
+      margin-right: 10px;
+      &--text {
+        margin-right: 10px;
+      }
+    }
+
+    &-select {
+      padding: 13.5px 10px;
+      width: 50%;
+      border: 1px solid #c7c7c7;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #c7c7c7;
+    }
+
+    &-option {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #1f1412;
+    }
+
+    &-not {
+      font-weight: 600;
+    }
+  }
+}

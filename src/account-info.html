@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="account__title title">Личный кабинет</h1>
+        <section class="account">
+          @@include('html/menu.htm',{})
+          <!-- /.menu -->
+          <div class="account__info">
+            <div class="account__info-item">
+              <p class="account__info-text text">Дата обновления</p>
+              <p class="account__info-text text">15.11.2022 11:56:25</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Дата последней авторизации</p>
+              <p class="account__info-text text">04.02.2023 22:59:22</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Имя</p>
+              <p class="account__info-input text">Инна</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Фамилия</p>
+              <p class="account__info-input text">Иванова</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Отчество</p>
+              <p class="account__info-input text">Ивановна</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Email</p>
+              <p class="account__info-input text">example@example.ru</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Логин</p>
+              <p class="account__info-input text">ivanova-inna-ivanovna</p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Фотография</p>
+              <p class="account__info-photo text">
+                <a class="link" href="">Выберите файл</a> или перетащите сюда
+              </p>
+            </div>
+            <div class="account__info-item">
+              <p class="account__info-text text">Сохранить изменения</p>
+              <button class="account__info-input btn btn-uniform">
+                Сохранить
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

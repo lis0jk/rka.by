@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="account__title title">Личный кабинет</h1>
+        <section class="account">
+          @@include('html/menu.htm',{})
+          <!-- /.menu -->
+          <div class="account__info">
+            <div class="account__info-item">
+              <label class="account__info-text text">Телефон</label>
+              <input class="account__info-input text" type="text" />
+            </div>
+            <div class="account__info-item account__info-item--area">
+              <label class="account__info-text text"> О себе </label>
+              <textarea
+                class="account__info-input"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">Личный сайт</label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">ICQ</label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">Skype</label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">Email</label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Номер свидетельства медиатора
+              </label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">Номер лицензии</label>
+              <p class="account__info-input text">123123123</p>
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Дата выдачи лицензии
+              </label>
+              <p class="account__info-input text">15.11.2022</p>
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Регистрационный номер
+              </label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Начало юридической деятельности
+              </label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Начало работы в адвокатуре
+              </label>
+              <input class="account__info-input text" type="text" />
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Индивидуальная деятельность
+              </label>
+              <div class="account__info-box">
+                <input class="account__info-checkbox text" type="checkbox" />
+                <p class="account__info-checkbox--text">Есть</p>
+                <input class="account__info-checkbox text" type="checkbox" />
+                <p class="account__info-checkbox--text">Нет</p>
+              </div>
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__info-text text">
+                Основные сферы деятельности
+              </label>
+              <select class="account__info-select">
+                <option class="account__info-option">Выбрать</option>
+                <option class="account__info-option">
+                  Автотранспорт, споры с ГАИ
+                </option>
+                <option class="account__info-option">Авторское право</option>
+                <option class="account__info-option">
+                  Административное право
+                </option>
+                <option class="account__info-option">Амнистия</option>
+                <option class="account__info-option">Банковское право</option>
+                <option class="account__info-option">Брачный контракт</option>
+                <option class="account__info-option">
+                  Образование и распределение
+                </option>
+                <option class="account__info-option">
+                  Защита прав несовершеннолетних
+                </option>
+                <option class="account__info-option">Гражданское право</option>
+                <option class="account__info-option">Жилищное право</option>
+                <option class="account__info-option">
+                  Защита прав потребителей
+                </option>
+                <option class="account__info-option">Земельное право</option>
+                <option class="account__info-option">
+                  Интеллектуальная собственность
+                </option>
+                <option class="account__info-option">
+                  Информационное право (информационные технологии)
+                </option>
+                <option class="account__info-option">
+                  Конституционное право
+                </option>
+                <option class="account__info-option">
+                  Корпоративное право
+                </option>
+                <option class="account__info-option">Медиация</option>
+                <option class="account__info-option">
+                  Международное право
+                </option>
+                <option class="account__info-option">
+                  Международное право (беженцы)
+                </option>
+                <option class="account__info-option">Налоговое право</option>
+                <option class="account__info-option">
+                  Наследственное право
+                </option>
+                <option class="account__info-option">
+                  Пенсионное обеспечение
+                </option>
+                <option class="account__info-option">Приватизация жилья</option>
+                <option class="account__info-option">
+                  Воинская служба и призыв
+                </option>
+                <option class="account__info-option">Семейное право</option>
+                <option class="account__info-option">Страховое право</option>
+                <option class="account__info-option">Таможенное право</option>
+                <option class="account__info-option">Трудовое право</option>
+                <option class="account__info-option">Уголовное право</option>
+                <option class="account__info-option">Финансовое право</option>
+                <option class="account__info-option">
+                  Хозяйственное право
+                </option>
+                <option class="account__info-option">
+                  Экономическое право
+                </option>
+                <option class="account__info-option">
+                  Экономические споры
+                </option>
+                <option class="account__info-option">
+                  Оформление наследственных прав граждан РБ по наследствам,
+                  открывшимся за границей
+                </option>
+                <option class="account__info-option">
+                  Недвижимое имущество
+                </option>
+                <option class="account__info-option">Банкротство</option>
+                <option class="account__info-option">Спортивное право</option>
+                <option class="account__info-option">Транспортное право</option>
+                <option class="account__info-option">Медицинское право</option>
+                <option class="account__info-option">
+                  Защита чести, достоинства, деловой репутации
+                </option>
+                <option class="account__info-option">Арбитражные споры</option>
+                <option class="account__info-option">
+                  Интеграционное право
+                </option>
+                <option class="account__info-option">Договорное право</option>
+                <option class="account__info-option">
+                  Исполнительное производство
+                </option>
+              </select>
+            </div>
+            <div class="account__info-item account__info-item--area">
+              <label class="account__info-text text">
+                Доп. сферы деятельности
+              </label>
+              <textarea
+                class="account__info-input text"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="account__info-item account__info-item--area">
+              <label class="account__info-text text">Иностранные языки</label>
+              <textarea
+                class="account__info-input text"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="account__info-item">
+              <p class="account__info-text text">Сохранить изменения</p>
+              <button class="account__info-input btn btn-uniform">
+                Сохранить
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

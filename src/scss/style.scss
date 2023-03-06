@@ -135,6 +135,7 @@ body {
 .btn {
   margin: 0 auto;
   display: block;
+  text-align: center;
   padding: 15px 23px;
   font-weight: 600;
   font-size: 18px;
@@ -183,7 +184,7 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1640px) {
   .container {
     width: 90%;
   }
@@ -243,3 +244,4 @@ body {
 @import "petrochenko";
 
 @import "autorization";
+@import "account";
