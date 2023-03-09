@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="account__title title">Личный кабинет</h1>
+        <section class="account">
+          @@include('html/menu.htm',{})
+          <!-- /.menu -->
+          <div class="account__info">
+            <div class="account__info-item account__info-item--sub">
+              <p class="account__subtitle text">Статус подписки</p>
+              <p class="account__subtitle account__subtitle-active text">
+                Активирован
+              </p>
+            </div>
+
+            <div class="account__info-item account__info-item--top">
+              <p class="account__subtitle text">Рубрика подписки</p>
+              <p class="account__subtitle text">Описание подписки</p>
+            </div>
+
+            <div class="account__info-item account__info-item--area">
+              <p class="account__text text">
+                Новости Белорусской республиканской коллегии адвокатов
+              </p>
+              <p class="account__text text">
+                Подписка на рассылку анонсов новостей и публикаций, а также
+                мероприятий, проводимых компанией.
+              </p>
+            </div>
+
+            <div class="account__info-item account__info-item--check">
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text text">Выбрать</p>
+              </div>
+            </div>
+
+            <div class="account__info-item account__info-item--area">
+              <p class="account__subtitle text">Новинки каталога</p>
+              <p class="account__text text">
+                Информация о новинках на рынке компьютерной техники.
+              </p>
+            </div>
+
+            <div class="account__info-item account__info-item--check">
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text text">Выбрать</p>
+              </div>
+            </div>
+
+            <div class="account__info-item">
+              <p class="account__input account__input-first text">
+                example@example.ru
+              </p>
+              <button class="account__input account__input-btn btn btn-uniform">
+                Подписаться
+              </button>
+            </div>
+
+            <div class="account__info-item">
+              <p class="account__text text">
+                Если вы хотите отказаться от подписки, нажмите на кнопку
+              </p>
+              <button class="account__input account__input-btn btn btn-active">
+                Отписаться
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

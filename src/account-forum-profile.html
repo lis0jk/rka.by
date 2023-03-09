@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="account__title title">Личный кабинет</h1>
+        <section class="account">
+          @@include('html/menu.htm',{})
+          <!-- /.menu -->
+          <div class="account__info">
+            <div class="account__info-item account__info-item--check">
+              <label class="account__text text"> Показывать имя </label>
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Да</p>
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Нет</p>
+              </div>
+            </div>
+
+            <div class="account__info-item account__info-item--check">
+              <label class="account__text text"> Разрешено писать </label>
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Да</p>
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Нет</p>
+              </div>
+            </div>
+
+            <div class="account__info-item account__info-item--check">
+              <label class="account__text text">
+                Показывать в списке «Сейчас на форуме»
+              </label>
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Да</p>
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Нет</p>
+              </div>
+            </div>
+
+            <div class="account__info-item account__info-item--check">
+              <label class="account__text text">
+                Включать свои сообщения в рассылку
+              </label>
+              <div class="account__box">
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Да</p>
+                <input class="account__checkbox text" type="checkbox" />
+                <p class="account__checkbox-text">Нет</p>
+              </div>
+            </div>
+
+            <div class="account__info-item">
+              <label class="account__text text">Пояснение</label>
+              <input class="account__input text" type="text" />
+            </div>
+
+            <div class="account__info-item account__info-item--area">
+              <label class="account__text text">Интересы</label>
+              <textarea
+                class="account__input text"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="account__info-item account__info-item--area">
+              <label class="account__text text">Подпись</label>
+              <textarea
+                class="account__input text"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="account__info-item">
+              <p class="account__text text">Аватар</p>
+              <p class="account__photo text">
+                <a class="link">Выберите файл</a> или перетащите сюда
+              </p>
+            </div>
+
+            <div class="account__info-item">
+              <p class="account__text text">Сохранить изменения</p>
+              <button class="account__input btn btn-uniform">Сохранить</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

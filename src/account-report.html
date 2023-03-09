@@ -18,7 +18,21 @@
         <section class="account">
           @@include('html/menu.htm',{})
           <!-- /.menu -->
-          <p class="account__not text">Для Вашего блока нет комментариев.</p>
+          <div class="account__info">
+            <div class="account__info-item account__info-item--sub">
+              <p class="account__subtitle text">Скачать отчёты за период</p>
+            </div>
+            <div class="account__info-item">
+              <button class="account__month btn btn-uniform">Декабрь</button>
+              <button class="account__month btn btn-uniform">Январь</button>
+            </div>
+            <div class="account__info-item">
+              <button class="account__month btn btn-uniform">Февраль</button>
+              <button class="account__month btn btn-uniform">
+                Май - Ноябрь
+              </button>
+            </div>
+          </div>
         </section>
       </div>
       @@include('html/_footer.htm',{})
