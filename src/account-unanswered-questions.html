@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <div class="container">
+        <section class="breadcrubs">
+          <div class="breadcrubs__container">
+            <nav class="breadcrubs__body">
+              <a href="index.html" class="breadcrubs__link">Главная</a>
+              <a href="" class="active-breadcrubs"> Личный кабинет </a>
+            </nav>
+          </div>
+        </section>
+
+        <h1 class="account__title title">Личный кабинет</h1>
+        <section class="account">
+          @@include('html/menu.htm',{})
+          <!-- /.menu -->
+          <div class="account__collegium">
+            <p class="account__collegium-text text">
+              Просим не отвечать на вопросы, которые содержат личные данные
+              во избежание их несанкционированного распространения в сети
+              Интернет. При открытии адвокатом вопроса для ответа
+              он «привязывается» к профилю данного адвоката и недоступен
+              для ответа другими адвокатами. Если ответ на вопрос не опубликован
+              в течение 30 минут, вопрос снова доступен для ответа.
+            </p>
+
+            <div class="account__advocacy">
+              <button class="account__advocacy-item">МОКА</button>
+              <button class="account__advocacy-item">МГКА</button>
+              <button class="account__advocacy-item">БОКА</button>
+              <button class="account__advocacy-item">ВОКА</button>
+              <button class="account__advocacy-item">ГрОКА</button>
+              <button class="account__advocacy-item">МогОКА</button>
+              <button
+                class="account__advocacy-item account__advocacy-item--active"
+              >
+                Все впоросы
+              </button>
+            </div>
+
+            <div class="account__collegium-item">
+              <div class="account__collegium-message">
+                <img
+                  class="account__collegium-icon"
+                  src="img/icons/question.svg"
+                  alt="icon"
+                />
+                <p class="account__collegium-span text">Вопрос</p>
+              </div>
+              <p class="account__collegium-question text">
+                Для начисления больничного листа может взять отпуск трудовой?
+                Больше будет больничный лист.
+              </p>
+              <div class="account__collegium-info">
+                <p class="account__collegium-date">06 февраля 2023</p>
+              </div>
+              <button class="account__collegium-btn btn btn-uniform">
+                Ответить
+              </button>
+            </div>
+
+            <div class="account__collegium-item">
+              <div class="account__collegium-message">
+                <img
+                  class="account__collegium-icon"
+                  src="img/icons/question.svg"
+                  alt="icon"
+                />
+                <p class="account__collegium-span text">Вопрос</p>
+              </div>
+              <p class="account__collegium-question text">
+                здравствуйте,я и общий ребёнок 8 лет прописаны в доме у бывшего
+                супруга(где он являетсясобственником,права доли в доме
+                я не имею,дом достался ему дарственно),но с ребёнком проживаем
+                в другом месте,на данный момент он подал в суд на моё выселение
+                без предоставления места жительства(хочет выписать из дома
+                только меня),но самой мне прописаться негде,в собственности
+                ничего не имею с иском я согласна на место жительствав этом доме
+                не претендую,но как это может отразится на ребёнке и его месте
+                жительства, могут ли решением суда нас с ребёнком разъеденить
+                т.к у матери нет собственного жилья и прописки,и отправить
+                её жить к отцу?будут ли проблемы в школе и с опекой?
+              </p>
+              <div class="account__collegium-info">
+                <p class="account__collegium-date">06 февраля 2023</p>
+                <p class="account__collegium-date">
+                  Кому:
+                  <a href="">Могилевская областная коллегия адвокатов</a>
+                </p>
+              </div>
+              <button class="account__collegium-btn btn btn-uniform">
+                Ответить
+              </button>
+            </div>
+
+            <div class="account__collegium-item">
+              <div class="account__collegium-message">
+                <img
+                  class="account__collegium-icon"
+                  src="img/icons/question.svg"
+                  alt="icon"
+                />
+                <p class="account__collegium-span text">Вопрос</p>
+              </div>
+              <p class="account__collegium-question text">
+                Я инвалид 3 группы по слуху. работаю на пенсии фотографом
+                в ОАО «Мир услуг Плюс». мне удобно брать оплачиваемый отпуск
+                по 5 дней. Но отдел кадров предписывает делить отпуск
+                на две части. Можно ли это изменить и как?
+              </p>
+              <div class="account__collegium-info">
+                <p class="account__collegium-date">06 февраля 2023</p>
+              </div>
+              <button class="account__collegium-btn btn btn-uniform">
+                Ответить
+              </button>
+            </div>
+
+            <div class="account__collegium-item">
+              <div class="account__collegium-message">
+                <img
+                  class="account__collegium-icon"
+                  src="img/icons/question.svg"
+                  alt="icon"
+                />
+                <p class="account__collegium-span text">Вопрос</p>
+              </div>
+              <p class="account__collegium-question text">
+                Здравствуйте! К счётчику в квартире, в которой никто не живёт
+                соседом было произведено не правильное (не законное)
+                подключение. В результате этого подключения счётчик насчитал
+                (на момент обнаружения) 160 квт электроэнергии. Были вызваны
+                электромонтёры из электросетей, которые на словах подтвердили
+                в моем присутствии и в присутствии жены соседа квартиры
+                не правильное подключение к электросчётчику. В просьбе исправить
+                и зафиксировать все на бумаге они отказали, ссылаясь на то,
+                что это не входит в их обязанности, они проверяют только
+                исправность счётчика. В этот же день была дана заявка в ЖРЕУ
+                (для вызова электрика). По словам старшего мастера ЖРЕУ электрик
+                был на месте и подтвердил не правильное подключение. Я живу
+                в другом городе и не могу постоянно присутствовать на месте.
+                При разговоре с соседом, по его словам, подключение и проводку
+                в его квартиру делал какой-то знакомый электрик. Сосед обещал
+                все оплатить. Прошла уже неделя и никакой оплаты нет. Что делать
+                в ситуации и куда обращаться если сосед откажется платить?
+                Спасибо.
+              </p>
+              <div class="account__collegium-info">
+                <p class="account__collegium-date">06 февраля 2023</p>
+                <p class="account__collegium-date">
+                  Кому:
+                  <a href="">Минская областная коллегия адвокатов</a>
+                </p>
+              </div>
+              <button class="account__collegium-btn btn btn-uniform">
+                Ответить
+              </button>
+            </div>
+
+            <div
+              class="card-section-blocks-pagination account__collegium-pages"
+            >
+              <div class="pagination">
+                <a href="#">&#10092;</a>
+                <a href="#" class="active-pagination">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&#10093;</a>
+              </div>
+              <div class="pagination-fraction">
+                <span class="pagination-fraction-active"> 1 </span>
+                <span class="pagination-fraction-separator"> / </span>
+                <span> 140 </span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      @@include('html/_footer.htm',{})
+      <!-- /.footer -->
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

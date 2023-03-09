@@ -50,4 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     $(this).toggleClass("active").next().slideToggle();
   });
+
+  $(".account__act-title").click(function (event) {
+    if ($(".account__act").hasClass("one")) {
+      $(".account__act-title").not($(this)).removeClass("active");
+      $(".account__act-box").not($(this).next()).slideUp();
+    }
+    $(this).toggleClass("active").next().slideToggle();
+  });
 });
